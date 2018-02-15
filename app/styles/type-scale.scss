@@ -1,0 +1,11 @@
+
+
+$fontsizemap: (
+  xsmall: 0.8rem,
+  small: 1rem,
+  medium:  2rem,
+  large:  3rem,
+  xlarge:  4rem
+);
+
+@each $name, $value in $fontsizemap { .font\:#{$name}, { font-size: $value; } }

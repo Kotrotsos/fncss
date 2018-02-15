@@ -1,0 +1,16 @@
+
+$radi: (
+  xsmall: 1px,
+  small: 2px,
+  medium:  5px,
+  large:  10px,
+  xlarge:  15px
+);
+
+
+
+@each $name, $value in $radi { .radius\:#{$name}, { border-radius: $value; } }
+
+.circle {
+  border-radius: 100%;
+}

@@ -1,0 +1,20 @@
+$s: 768px;
+$m: 992px;
+$l: 1200px;
+$xl: 1400px;
+
+@mixin respond-to($class) {
+  // Everything larger than small
+  @if $class == sm {
+    @media (min-width: $s) { @content; }
+  }
+  @else if $class == md {
+    @media (min-width: $m) { @content; }
+  }
+  @else if $class == lg {
+    @media (min-width: $l) { @content; }
+  }
+  @else if $class == xl {
+    @media (min-width: $xl) { @content; }
+  }
+}

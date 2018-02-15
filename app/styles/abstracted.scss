@@ -1,0 +1,15 @@
+
+
+
+.padded {
+  @extend .padding\:medium;
+}
+
+.outlined {
+  @extend .border;
+  @extend .border-solid;
+}
+
+.bordered {
+
+}

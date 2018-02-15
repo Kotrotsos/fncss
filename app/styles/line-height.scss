@@ -1,0 +1,13 @@
+
+
+$lineheight: (
+  xsmall: 1em,
+  small: 1.25rem,
+  medium:  1.5em,
+  large:  1.7em,
+  xlarge:  2em
+);
+
+
+
+@each $name, $value in $lineheight { .line-height\:#{$name}, { line-height: $value; } }

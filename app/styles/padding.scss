@@ -1,0 +1,17 @@
+
+
+$paddings: (
+  none: 0,
+  xsmall: $base-whitespace / 2,
+  small: $base-whitespace,
+  medium: $base-whitespace * 2,
+  large: $base-whitespace * 3,
+  xlarge: $base-whitespace * 4
+);
+
+
+@each $name, $value in $paddings { .padding\:#{$name}           { padding:         $value; } }
+@each $name, $value in $paddings { .padding-top\:#{$name}       { padding-top:     $value; } }
+@each $name, $value in $paddings { .padding-right\:#{$name}     { padding-right:   $value; } }
+@each $name, $value in $paddings { .padding-bottom\:#{$name}    { padding-bottom:  $value; } }
+@each $name, $value in $paddings { .padding-left\:#{$name}       { padding-left:    $value; } }

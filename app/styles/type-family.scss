@@ -1,0 +1,25 @@
+/* From Tachyons.css
+   https://github.com/tachyons-css/tachyons/blob/master/src/_font-family.css
+*/
+
+.serif {
+  font-family: georgia,
+               times,
+               serif;
+}
+
+.sans-serif {
+  font-family: -apple-system, BlinkMacSystemFont,
+               'avenir next', avenir,
+               'helvetica neue', helvetica,
+               ubuntu,
+               roboto,
+               'segoe ui', arial,
+               sans-serif;
+}
+
+code, .code, pre, .pre {
+  font-family: Consolas,
+               monaco,
+               monospace;
+}

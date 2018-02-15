@@ -1,0 +1,15 @@
+$margins: (
+  none: 0,
+  xsmall: $base-whitespace / 2,
+  small: $base-whitespace,
+  medium: $base-whitespace * 2,
+  large: $base-whitespace * 3,
+  xlarge: $base-whitespace * 4
+);
+
+
+@each $name, $value in $margins { .margin\:#{$name},        { margin:         $value; } }
+@each $name, $value in $margins { .margin-top\:#{$name}     { margin-top:     $value; } }
+@each $name, $value in $margins { .margin-right\:#{$name}   { margin-right:   $value; } }
+@each $name, $value in $margins { .margin-bottom\:#{$name}  { margin-bottom:  $value; } }
+@each $name, $value in $margins { .margin-left\:#{$name}    { margin-left:    $value; } }

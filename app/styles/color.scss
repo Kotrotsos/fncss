@@ -1,0 +1,511 @@
+.black {
+    background-color: #000!important;
+    border-color: #000!important
+}
+.black\:80 {
+    background-color: rgba(0, 0, 0, .8);
+}
+.black\:text {
+    color: #000!important
+}
+
+.black\:text input,.black\:text textarea {
+    caret-color: #000!important
+}
+
+.black\:after:after {
+    background: #000!important
+}
+
+.white {
+    background-color: #fff!important;
+    border-color: #fff!important
+}
+
+
+.white\:80 {
+    background-color: rgba(255, 255, 255, .8);
+}
+
+.white\:text {
+    color: #fff!important
+}
+
+.white\:text input,.white\:text textarea {
+    caret-color: #fff!important
+}
+
+.white\:after:after {
+    background: #fff!important
+}
+
+.transparent {
+    background-color: transparent!important;
+    border-color: transparent!important
+}
+
+.transparent\:text {
+    color: transparent!important
+}
+
+.transparent\:text input,.transparent\:text textarea {
+    caret-color: transparent!important
+}
+
+.transparent\:after:after {
+    background: transparent!important
+}
+
+.red {
+    background-color: #f44336!important;
+    border-color: #f44336!important
+}
+
+.red\:text {
+    color: #f44336!important
+}
+
+.red\:text input,.red\:text textarea {
+    caret-color: #f44336!important
+}
+
+.red\:after:after {
+    background: #f44336!important
+}
+
+.pink {
+    background-color: #e91e63!important;
+    border-color: #e91e63!important
+}
+
+.pink\:text {
+    color: #e91e63!important
+}
+
+.pink\:text input,.pink\:text textarea {
+    caret-color: #e91e63!important
+}
+
+.pink\:after:after {
+    background: #e91e63!important
+}
+
+.purple {
+    background-color: #9c27b0!important;
+    border-color: #9c27b0!important
+}
+
+.purple\:text {
+    color: #9c27b0!important
+}
+
+.purple\:text input,.purple\:text textarea {
+    caret-color: #9c27b0!important
+}
+
+.purple\:after:after {
+    background: #9c27b0!important
+}
+
+.deep-purple {
+    background-color: #673ab7!important;
+    border-color: #673ab7!important
+}
+
+.deep-purple\:text {
+    color: #673ab7!important
+}
+
+.deep-purple\:text input,.deep-purple\:text textarea {
+    caret-color: #673ab7!important
+}
+
+.deep-purple\:after:after {
+    background: #673ab7!important
+}
+
+.indigo {
+    background-color: #3f51b5!important;
+    border-color: #3f51b5!important
+}
+
+.indigo\:text {
+    color: #3f51b5!important
+}
+
+.indigo\:text input,.indigo\:text textarea {
+    caret-color: #3f51b5!important
+}
+
+.indigo\:after:after {
+    background: #3f51b5!important
+}
+
+.blue {
+    background-color: #2196f3!important;
+    border-color: #2196f3!important
+}
+
+.blue\:text {
+    color: #2196f3!important
+}
+
+.blue\:text input,.blue\:text textarea {
+    caret-color: #2196f3!important
+}
+
+.blue\:after:after {
+    background: #2196f3!important
+}
+
+.light-blue {
+    background-color: #03a9f4!important;
+    border-color: #03a9f4!important
+}
+
+.light-blue\:text {
+    color: #03a9f4!important
+}
+
+.light-blue\:text input,.light-blue\:text textarea {
+    caret-color: #03a9f4!important
+}
+
+.light-blue\:after:after {
+    background: #03a9f4!important
+}
+
+.cyan {
+    background-color: #00bcd4!important;
+    border-color: #00bcd4!important
+}
+
+.cyan\:text {
+    color: #00bcd4!important
+}
+
+.cyan\:text input,.cyan\:text textarea {
+    caret-color: #00bcd4!important
+}
+
+.cyan\:after:after {
+    background: #00bcd4!important
+}
+
+.teal {
+    background-color: #009688!important;
+    border-color: #009688!important
+}
+
+.teal\:text {
+    color: #009688!important
+}
+
+.teal\:text input,.teal\:text textarea {
+    caret-color: #009688!important
+}
+
+.teal\:after:after {
+    background: #009688!important
+}
+
+.green {
+    background-color: #4caf50!important;
+    border-color: #4caf50!important
+}
+
+.green\:text {
+    color: #4caf50!important
+}
+
+.green\:text input,.green\:text textarea {
+    caret-color: #4caf50!important
+}
+
+.green\:after:after {
+    background: #4caf50!important
+}
+
+.light-green {
+    background-color: #8bc34a!important;
+    border-color: #8bc34a!important
+}
+
+.light-green\:text {
+    color: #8bc34a!important
+}
+
+.light-green\:text input,.light-green\:text textarea {
+    caret-color: #8bc34a!important
+}
+
+.light-green\:after:after {
+    background: #8bc34a!important
+}
+
+.lime {
+    background-color: #cddc39!important;
+    border-color: #cddc39!important
+}
+
+.lime\:text {
+    color: #cddc39!important
+}
+
+.lime\:text input,.lime\:text textarea {
+    caret-color: #cddc39!important
+}
+
+.lime\:after:after {
+    background: #cddc39!important
+}
+
+.yellow {
+    background-color: #ffeb3b!important;
+    border-color: #ffeb3b!important
+}
+
+.yellow\:text {
+    color: #ffeb3b!important
+}
+
+.yellow\:text input,.yellow\:text textarea {
+    caret-color: #ffeb3b!important
+}
+
+.yellow\:after:after {
+    background: #ffeb3b!important
+}
+
+.amber {
+    background-color: #ffc107!important;
+    border-color: #ffc107!important
+}
+
+.amber\:text {
+    color: #ffc107!important
+}
+
+.amber\:text input,.amber\:text textarea {
+    caret-color: #ffc107!important
+}
+
+.amber\:after:after {
+    background: #ffc107!important
+}
+
+.amber.lighten-5 {
+    border-color: #fff8e1!important
+}
+
+.amber.lighten-5,.amber.lighten-5\:after:after {
+    background-color: #fff8e1!important
+}
+
+.amber\:text.text\:lighten-5 {
+    color: #fff8e1!important
+}
+
+.amber\:text.text\:lighten-5 input,.amber\:text.text\:lighten-5 textarea {
+    caret-color: #fff8e1!important
+}
+
+.orange {
+    background-color: #ff9800!important;
+    border-color: #ff9800!important
+}
+
+.orange\:text {
+    color: #ff9800!important
+}
+
+.orange\:text input,.orange\:text textarea {
+    caret-color: #ff9800!important
+}
+
+.orange\:after:after {
+    background: #ff9800!important
+}
+
+
+.deep-orange {
+    background-color: #ff5722!important;
+    border-color: #ff5722!important
+}
+
+.deep-orange\:text {
+    color: #ff5722!important
+}
+
+.deep-orange\:text input,.deep-orange\:text textarea {
+    caret-color: #ff5722!important
+}
+
+.deep-orange\:after:after {
+    background: #ff5722!important
+}
+
+.brown {
+    background-color: #795548!important;
+    border-color: #795548!important
+}
+
+.brown\:text {
+    color: #795548!important
+}
+
+.brown\:text input,.brown\:text textarea {
+    caret-color: #795548!important
+}
+
+.brown\:after:after {
+    background: #795548!important
+}
+
+.blue-grey {
+    background-color: #607d8b!important;
+    border-color: #607d8b!important
+}
+
+.blue-grey\:text {
+    color: #607d8b!important
+}
+
+.blue-grey\:text input,.blue-grey\:text textarea {
+    caret-color: #607d8b!important
+}
+
+.blue-grey\:after:after {
+    background: #607d8b!important
+}
+
+.grey {
+    background-color: #9e9e9e!important;
+    border-color: #9e9e9e!important
+}
+
+.grey\:text {
+    color: #9e9e9e!important
+}
+
+.grey\:text input,.grey\:text textarea {
+    caret-color: #9e9e9e!important
+}
+
+.grey\:after:after {
+    background: #9e9e9e!important
+}
+
+//TODO: Finish
+.smoke {
+    background-color: #F8F8F8!important;
+    border-color: #F8F8F8!important
+}
+
+
+
+
+
+/* BORDER COLORS */
+
+
+
+.black\:border {
+    border-color: #000!important
+}
+
+.white\:border {
+    border-color: #fff!important
+}
+
+.transparent\:border {
+    border-color: transparent!important
+}
+
+.red\:border {
+    border-color: #f44336!important
+}
+
+.pink\:border {
+    border-color: #e91e63!important
+}
+
+.purple\:border {
+    border-color: #9c27b0!important
+}
+
+.deep-purple\:border {
+    border-color: #673ab7!important
+}
+
+.indigo\:border {
+    border-color: #3f51b5!important
+}
+
+.blue\:border {
+    border-color: #2196f3!important
+}
+
+.light-blue\:border {
+    border-color: #03a9f4!important
+}
+
+.cyan\:border {
+    border-color: #00bcd4!important
+}
+
+.teal\:border {
+    border-color: #009688!important
+}
+
+.green\:border {
+    border-color: #4caf50!important
+}
+
+.light-green\:border {
+    border-color: #8bc34a!important
+}
+
+.lime\:border {
+    border-color: #cddc39!important
+}
+
+.yellow\:border {
+    border-color: #ffeb3b!important
+}
+
+.amber\:border {
+    border-color: #ffc107!important
+}
+
+.orange\:border {
+    border-color: #ff9800!important
+}
+
+.deep-orange\:border {
+    border-color: #ff5722!important
+}
+
+.brown\:border {
+    border-color: #795548!important
+}
+
+.blue-grey\:border {
+    border-color: #607d8b!important
+}
+
+.grey\:border {
+    border-color: #9e9e9e!important
+}
+
+.shades.black {
+    border-color: #000!important
+}
+
+.shades.white {
+    border-color: #fff!important
+}
+
+.shades.transparent {
+    border-color: transparent!important
+}

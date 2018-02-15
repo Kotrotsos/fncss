@@ -1,0 +1,21 @@
+
+
+h1 {
+  @extend .font\:xlarge;
+}
+
+h2 {
+  @extend .font\:large;
+}
+
+h3 {
+  @extend .font\:medium;
+}
+
+h4 {
+  @extend .font\:small;
+}
+
+h5 {
+  @extend .font\:xsmall;
+}
